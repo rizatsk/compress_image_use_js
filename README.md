@@ -1,0 +1,1 @@
+# compress_image_use_js
