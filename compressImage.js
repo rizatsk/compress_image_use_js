@@ -20,7 +20,7 @@ if (!$('#file')[0].files[0]) {
             form.append("image", file);
 
             $.ajax({
-                url: "http://172.104.164.57/api/mobile/users/profile-picture",
+                url: YOUR_URL,
                 method: "PUT",
                 timeout: 0,
                 processData: false,
